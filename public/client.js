@@ -6,7 +6,6 @@ socket.on('connect', function(data) {
 
 
 // listener for 'thread' event, which updates messages
-
 socket.on('thread', function(data) {
   $('#thread').append('<li>' + data + '</li>');
 });
